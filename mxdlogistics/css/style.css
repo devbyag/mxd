@@ -1,0 +1,59 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+body {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-color: #141E61;
+  text-align: center;
+}
+
+p {
+  font: "Montserrat";
+  font-size: 1rem;
+  color: #8f8f8f;
+  font-weight: lighter;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.container {
+  align-items: center;
+}
+/* Sections */
+
+.colored-section {
+    background-color: #141E61;
+    color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Video */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: left;
+  }
+
+
+
+/* Footer */
+
+.social-icon {
+  margin: 10px 10px;
+  color: #fff;
+}
